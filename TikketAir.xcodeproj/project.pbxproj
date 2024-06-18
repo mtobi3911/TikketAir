@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5C0163E2C20503800D708DD /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C0163D2C20503800D708DD /* TabBarView.swift */; };
+		A5C016402C20508B00D708DD /* TicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C0163F2C20508B00D708DD /* TicketsView.swift */; };
+		A5C016422C2050B100D708DD /* TicketsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C016412C2050B100D708DD /* TicketsViewModel.swift */; };
+		A5C016442C2050E100D708DD /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C016432C2050E100D708DD /* Offer.swift */; };
+		A5C016462C20516400D708DD /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C016452C20516400D708DD /* SearchView.swift */; };
+		A5C016482C2051B800D708DD /* SearchResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C016472C2051B800D708DD /* SearchResultView.swift */; };
+		A5C0164A2C2051EE00D708DD /* TicketListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C016492C2051EE00D708DD /* TicketListView.swift */; };
+		A5FC1C952C1FFF040097E151 /* TikketAirApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC1C942C1FFF040097E151 /* TikketAirApp.swift */; };
+		A5FC1C972C1FFF040097E151 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC1C962C1FFF040097E151 /* ContentView.swift */; };
+		A5FC1C992C1FFF090097E151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5FC1C982C1FFF090097E151 /* Assets.xcassets */; };
+		A5FC1C9C2C1FFF090097E151 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5FC1C9B2C1FFF090097E151 /* Preview Assets.xcassets */; };
+		A5FC1CA62C1FFF090097E151 /* TikketAirTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC1CA52C1FFF090097E151 /* TikketAirTests.swift */; };
+		A5FC1CB02C1FFF090097E151 /* TikketAirUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC1CAF2C1FFF090097E151 /* TikketAirUITests.swift */; };
+		A5FC1CB22C1FFF090097E151 /* TikketAirUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC1CB12C1FFF090097E151 /* TikketAirUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5FC1CA22C1FFF090097E151 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5FC1C892C1FFF040097E151 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5FC1C902C1FFF040097E151;
+			remoteInfo = TikketAir;
+		};
+		A5FC1CAC2C1FFF090097E151 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5FC1C892C1FFF040097E151 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5FC1C902C1FFF040097E151;
+			remoteInfo = TikketAir;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5C0163D2C20503800D708DD /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		A5C0163F2C20508B00D708DD /* TicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsView.swift; sourceTree = "<group>"; };
+		A5C016412C2050B100D708DD /* TicketsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsViewModel.swift; sourceTree = "<group>"; };
+		A5C016432C2050E100D708DD /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
+		A5C016452C20516400D708DD /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		A5C016472C2051B800D708DD /* SearchResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultView.swift; sourceTree = "<group>"; };
+		A5C016492C2051EE00D708DD /* TicketListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketListView.swift; sourceTree = "<group>"; };
+		A5FC1C912C1FFF040097E151 /* TikketAir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikketAir.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5FC1C942C1FFF040097E151 /* TikketAirApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikketAirApp.swift; sourceTree = "<group>"; };
+		A5FC1C962C1FFF040097E151 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A5FC1C982C1FFF090097E151 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5FC1C9B2C1FFF090097E151 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A5FC1CA12C1FFF090097E151 /* TikketAirTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TikketAirTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5FC1CA52C1FFF090097E151 /* TikketAirTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikketAirTests.swift; sourceTree = "<group>"; };
+		A5FC1CAB2C1FFF090097E151 /* TikketAirUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TikketAirUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5FC1CAF2C1FFF090097E151 /* TikketAirUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikketAirUITests.swift; sourceTree = "<group>"; };
+		A5FC1CB12C1FFF090097E151 /* TikketAirUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikketAirUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5FC1C8E2C1FFF040097E151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FC1C9E2C1FFF090097E151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FC1CA82C1FFF090097E151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5C016392C204FB100D708DD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A5C016432C2050E100D708DD /* Offer.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A5C0163A2C204FC400D708DD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A5C016412C2050B100D708DD /* TicketsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A5C0163B2C204FE000D708DD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A5C0163D2C20503800D708DD /* TabBarView.swift */,
+				A5C0163F2C20508B00D708DD /* TicketsView.swift */,
+				A5C016452C20516400D708DD /* SearchView.swift */,
+				A5C016472C2051B800D708DD /* SearchResultView.swift */,
+				A5C016492C2051EE00D708DD /* TicketListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A5C0163C2C204FEE00D708DD /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		A5FC1C882C1FFF040097E151 = {
+			isa = PBXGroup;
+			children = (
+				A5C0163C2C204FEE00D708DD /* Coordinators */,
+				A5C0163B2C204FE000D708DD /* Views */,
+				A5C0163A2C204FC400D708DD /* ViewModels */,
+				A5C016392C204FB100D708DD /* Models */,
+				A5FC1C932C1FFF040097E151 /* TikketAir */,
+				A5FC1CA42C1FFF090097E151 /* TikketAirTests */,
+				A5FC1CAE2C1FFF090097E151 /* TikketAirUITests */,
+				A5FC1C922C1FFF040097E151 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5FC1C922C1FFF040097E151 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5FC1C912C1FFF040097E151 /* TikketAir.app */,
+				A5FC1CA12C1FFF090097E151 /* TikketAirTests.xctest */,
+				A5FC1CAB2C1FFF090097E151 /* TikketAirUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5FC1C932C1FFF040097E151 /* TikketAir */ = {
+			isa = PBXGroup;
+			children = (
+				A5FC1C942C1FFF040097E151 /* TikketAirApp.swift */,
+				A5FC1C962C1FFF040097E151 /* ContentView.swift */,
+				A5FC1C982C1FFF090097E151 /* Assets.xcassets */,
+				A5FC1C9A2C1FFF090097E151 /* Preview Content */,
+			);
+			path = TikketAir;
+			sourceTree = "<group>";
+		};
+		A5FC1C9A2C1FFF090097E151 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A5FC1C9B2C1FFF090097E151 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A5FC1CA42C1FFF090097E151 /* TikketAirTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5FC1CA52C1FFF090097E151 /* TikketAirTests.swift */,
+			);
+			path = TikketAirTests;
+			sourceTree = "<group>";
+		};
+		A5FC1CAE2C1FFF090097E151 /* TikketAirUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5FC1CAF2C1FFF090097E151 /* TikketAirUITests.swift */,
+				A5FC1CB12C1FFF090097E151 /* TikketAirUITestsLaunchTests.swift */,
+			);
+			path = TikketAirUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5FC1C902C1FFF040097E151 /* TikketAir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5FC1CB52C1FFF090097E151 /* Build configuration list for PBXNativeTarget "TikketAir" */;
+			buildPhases = (
+				A5FC1C8D2C1FFF040097E151 /* Sources */,
+				A5FC1C8E2C1FFF040097E151 /* Frameworks */,
+				A5FC1C8F2C1FFF040097E151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TikketAir;
+			productName = TikketAir;
+			productReference = A5FC1C912C1FFF040097E151 /* TikketAir.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5FC1CA02C1FFF090097E151 /* TikketAirTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5FC1CB82C1FFF090097E151 /* Build configuration list for PBXNativeTarget "TikketAirTests" */;
+			buildPhases = (
+				A5FC1C9D2C1FFF090097E151 /* Sources */,
+				A5FC1C9E2C1FFF090097E151 /* Frameworks */,
+				A5FC1C9F2C1FFF090097E151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5FC1CA32C1FFF090097E151 /* PBXTargetDependency */,
+			);
+			name = TikketAirTests;
+			productName = TikketAirTests;
+			productReference = A5FC1CA12C1FFF090097E151 /* TikketAirTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5FC1CAA2C1FFF090097E151 /* TikketAirUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5FC1CBB2C1FFF090097E151 /* Build configuration list for PBXNativeTarget "TikketAirUITests" */;
+			buildPhases = (
+				A5FC1CA72C1FFF090097E151 /* Sources */,
+				A5FC1CA82C1FFF090097E151 /* Frameworks */,
+				A5FC1CA92C1FFF090097E151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5FC1CAD2C1FFF090097E151 /* PBXTargetDependency */,
+			);
+			name = TikketAirUITests;
+			productName = TikketAirUITests;
+			productReference = A5FC1CAB2C1FFF090097E151 /* TikketAirUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5FC1C892C1FFF040097E151 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					A5FC1C902C1FFF040097E151 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					A5FC1CA02C1FFF090097E151 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A5FC1C902C1FFF040097E151;
+					};
+					A5FC1CAA2C1FFF090097E151 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A5FC1C902C1FFF040097E151;
+					};
+				};
+			};
+			buildConfigurationList = A5FC1C8C2C1FFF040097E151 /* Build configuration list for PBXProject "TikketAir" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5FC1C882C1FFF040097E151;
+			productRefGroup = A5FC1C922C1FFF040097E151 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5FC1C902C1FFF040097E151 /* TikketAir */,
+				A5FC1CA02C1FFF090097E151 /* TikketAirTests */,
+				A5FC1CAA2C1FFF090097E151 /* TikketAirUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5FC1C8F2C1FFF040097E151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5FC1C9C2C1FFF090097E151 /* Preview Assets.xcassets in Resources */,
+				A5FC1C992C1FFF090097E151 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FC1C9F2C1FFF090097E151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FC1CA92C1FFF090097E151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5FC1C8D2C1FFF040097E151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C016442C2050E100D708DD /* Offer.swift in Sources */,
+				A5C016482C2051B800D708DD /* SearchResultView.swift in Sources */,
+				A5FC1C972C1FFF040097E151 /* ContentView.swift in Sources */,
+				A5C0163E2C20503800D708DD /* TabBarView.swift in Sources */,
+				A5C0164A2C2051EE00D708DD /* TicketListView.swift in Sources */,
+				A5C016462C20516400D708DD /* SearchView.swift in Sources */,
+				A5C016402C20508B00D708DD /* TicketsView.swift in Sources */,
+				A5C016422C2050B100D708DD /* TicketsViewModel.swift in Sources */,
+				A5FC1C952C1FFF040097E151 /* TikketAirApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FC1C9D2C1FFF090097E151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5FC1CA62C1FFF090097E151 /* TikketAirTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FC1CA72C1FFF090097E151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5FC1CB02C1FFF090097E151 /* TikketAirUITests.swift in Sources */,
+				A5FC1CB22C1FFF090097E151 /* TikketAirUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5FC1CA32C1FFF090097E151 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5FC1C902C1FFF040097E151 /* TikketAir */;
+			targetProxy = A5FC1CA22C1FFF090097E151 /* PBXContainerItemProxy */;
+		};
+		A5FC1CAD2C1FFF090097E151 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5FC1C902C1FFF040097E151 /* TikketAir */;
+			targetProxy = A5FC1CAC2C1FFF090097E151 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A5FC1CB32C1FFF090097E151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5FC1CB42C1FFF090097E151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5FC1CB62C1FFF090097E151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TikketAir/Preview Content\"";
+				DEVELOPMENT_TEAM = CS3D4J67LN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mtobi3911.TikketAir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5FC1CB72C1FFF090097E151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TikketAir/Preview Content\"";
+				DEVELOPMENT_TEAM = CS3D4J67LN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mtobi3911.TikketAir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A5FC1CB92C1FFF090097E151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mtobi3911.TikketAirTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TikketAir.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TikketAir";
+			};
+			name = Debug;
+		};
+		A5FC1CBA2C1FFF090097E151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mtobi3911.TikketAirTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TikketAir.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TikketAir";
+			};
+			name = Release;
+		};
+		A5FC1CBC2C1FFF090097E151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mtobi3911.TikketAirUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TikketAir;
+			};
+			name = Debug;
+		};
+		A5FC1CBD2C1FFF090097E151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mtobi3911.TikketAirUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TikketAir;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5FC1C8C2C1FFF040097E151 /* Build configuration list for PBXProject "TikketAir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5FC1CB32C1FFF090097E151 /* Debug */,
+				A5FC1CB42C1FFF090097E151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5FC1CB52C1FFF090097E151 /* Build configuration list for PBXNativeTarget "TikketAir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5FC1CB62C1FFF090097E151 /* Debug */,
+				A5FC1CB72C1FFF090097E151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5FC1CB82C1FFF090097E151 /* Build configuration list for PBXNativeTarget "TikketAirTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5FC1CB92C1FFF090097E151 /* Debug */,
+				A5FC1CBA2C1FFF090097E151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5FC1CBB2C1FFF090097E151 /* Build configuration list for PBXNativeTarget "TikketAirUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5FC1CBC2C1FFF090097E151 /* Debug */,
+				A5FC1CBD2C1FFF090097E151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5FC1C892C1FFF040097E151 /* Project object */;
+}
